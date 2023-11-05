@@ -8,6 +8,6 @@ async function bootstrap() {
   const config = new DocumentBuilder().setTitle('Swagger').setVersion('1000').build();
   const document = SwaggerModule.createDocument(app,config);
   SwaggerModule.setup("/api/v1/swagger",app,document)
-  await app.listen(8080);
+  await app.listen(process.env.PORT,"0.0.0.0");
 }
 bootstrap();
