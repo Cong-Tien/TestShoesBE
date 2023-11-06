@@ -22,52 +22,29 @@
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
-## Description
+# Instructions for running my projrct
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+You only need to take 3 steps to be able to run the project
 
-## Installation
 
-```bash
-$ yarn install
-```
+## Step 1: Download my project from GitHub
 
-## Running the app
+### `git clone https://github.com/Cong-Tien/TestShoesBE.git`
 
-```bash
-# development
-$ yarn run start
 
-# watch mode
-$ yarn run start:dev
+## Step 2: Install the necessary libraries to run the project
 
-# production mode
-$ yarn run start:prod
-```
+### `npm instal`
+with npm
+or
+### `yarn instal`
+if you use yarn
 
-## Test
 
-```bash
-# unit tests
-$ yarn run test
+## Step 3: Run project
 
-# e2e tests
-$ yarn run test:e2e
-
-# test coverage
-$ yarn run test:cov
-```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
+### `npm run build`
+with npm
+or
+### `yarn start`
+if you use yarn
